@@ -9,6 +9,6 @@ public class Manager extends Zamestnanec {
     }
 
     public void vypisInfo(){
-        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + "Pocet rizenich zamestnancu: " + pocetRizenychZamestnancu);
+        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + " Pocet rizenich zamestnancu: " + pocetRizenychZamestnancu);
     }
 }

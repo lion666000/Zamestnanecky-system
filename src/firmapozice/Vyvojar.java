@@ -1,20 +1,16 @@
 package firmapozice;
 
 public class Vyvojar extends Zamestnanec{
-    private String[] Jazyky;
+    private String[] jazyky;
 
-    public Vyvojar(String jmeno, String prijmeni, String pozice, int plat,String[] Jazyky) {
+    public Vyvojar(String jmeno, String prijmeni, String pozice, int plat,String[] jazyky) {
         super(jmeno, prijmeni, pozice, plat);
-        this.Jazyky = Jazyky;
+        this.jazyky = jazyky;
     }
 
-    public void JazykyToString() {
-        String[] jazyky = new String[];
-
-    }
 
     public void vypisInfo(){
-        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + "Jazyky: " + Jazyky[0]);
+        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + " Jazyky: " + jazyky);
     }
 
 }

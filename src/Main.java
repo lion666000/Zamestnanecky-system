@@ -6,10 +6,10 @@ import firmapozice.Zamestnanec;
 public class Main {
     public static void main(String[] args) {
 
-
+        String[] jazyky = {"cestina", "anglictina"};
         Zamestnanec jarda = new Zamestnanec("Jarda", "Vrumda", "sklep", 12);
         Manager jirda = new Manager("Jirda", "Vyrda", "Mangir", 5000, 271000);
-        Vyvojar jenda = new Vyvojar("Jenda", "Vendja", "Stresnik", 152, String[] Jazyky)
+        Vyvojar jenda = new Vyvojar("Jenda", "Vendja", "Stresnik", 152,jazyky);
         Tester jordan = new Tester("Jordan", "Varda", "Opicka", 5000, 0);
 
         jarda.vypisInfo();

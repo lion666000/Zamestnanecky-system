@@ -14,6 +14,6 @@ public class Tester extends Zamestnanec{
     }
 
     public void vypisInfo(){
-        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + "Pcet nalezenych chyb: " + pocetnalezenychChyb);
+        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + " Pocet nalezenych chyb: " + pocetnalezenychChyb);
     }
 }
