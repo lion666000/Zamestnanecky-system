@@ -8,9 +8,16 @@ public class Vyvojar extends Zamestnanec{
         this.jazyky = jazyky;
     }
 
+    public void vypisJazyky(){
+        for (int i = 0; i < jazyky.length; i++) {
+            System.out.println(jazyky[i]);
+        }
+    }
+
 
     public void vypisInfo(){
-        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + " Jazyky: " + jazyky);
+        System.out.println("Jmeno: " + jmeno+" Prijmeni: " + prijmeni+" Pozice: " + pozice+" Plat: " + plat + " Jazyky: ");
+        vypisJazyky();
     }
 
 }
